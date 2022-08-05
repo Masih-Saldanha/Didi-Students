@@ -1,0 +1,16 @@
+1 - Não estou conseguindo fazer funcionar o container do node_app no docker-compose.yml, provavelmente tem alguma coisa a ver com o comando build do docker-compose.yml
+
+2 - causas primárias:
+ * provavelmente tem a ver com o comando "build" dentro de docker-compose.yml
+
+3 - 
+ * hipótese: provavelmente tem a ver com o comando "build" dentro de docker-compose.yml
+ * racional: sempre que uso "image" '''funciona''' e quando tiro "image" e "build" reclama de não existir nenhum dos 2.
+ * análise/atividade: pesquisar o comando build na documentação.
+ * fonte da info: logs de erro.
+
+4 - 
+ * alto impacto/baixo esforço: pesquisar o comando na documentação e exemplos.
+ * alto impacto/alto esforço: ...
+
+5 -
